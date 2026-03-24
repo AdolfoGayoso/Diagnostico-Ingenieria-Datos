@@ -5,7 +5,7 @@ import time
 import redis
 from github import Github
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("TOKEN")
 
 def split_words(name):
     """Divide nombres en camelCase y snake_case."""

@@ -15,7 +15,7 @@ services:
       - redis
     environment:
       - PYTHONUNBUFFERED=1
-      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - TOKEN=${TOKEN}
     restart: unless-stopped
 
   visualizer:
